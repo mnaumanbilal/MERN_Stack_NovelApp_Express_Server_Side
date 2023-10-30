@@ -1,0 +1,12 @@
+{"email":"admin@admin.com",
+"password":"admin"}
+
+
+-------------
+
+{
+    "name":"Gold Nuggets",
+    "price":"5000",
+    "color":"Gold"
+}
+

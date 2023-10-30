@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/stylesheets/admin.css">
+</head>
+<body>
+
+    <div class="base-container">
+    <h3 class="addProdH3"> Add a New Product</h3>
+    <form class="form" action="/api/products" method="POST" >
+       
+        <input type="text" name="name" placeholder="Name">
+
+        <input type="text" name="price" placeholder="Price">
+
+        <input type="text" name="discountPerc" placeholder="Discount Percentage">
+        
+        <input type="text" name="productType" placeholder="Category">
+
+        <input type="text" name="imgLink" placeholder="Link to Product Image">
+
+        <button type="submit" class="addProduct">ADD</button>
+
+    </form>
+</div>
+</body>
+</html>

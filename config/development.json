@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "NovelToonPrivateKey",
+  "db": "mongodb://127.0.0.1/noveltoon",
+  "port": "4000",
+  "sessionSecret": "MySessionSecret"
+}

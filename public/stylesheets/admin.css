@@ -1,0 +1,45 @@
+
+.addProduct{
+    background-color: rgb(91, 91, 147);
+    color: white;
+    width:10em;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.addProdH3{
+    margin-top: 1%;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.base-container form{
+    display: flex;
+    flex-direction: column;
+    width:20%   
+}
+
+.base-container .form input {
+    margin-top: 6px;
+    min-width: 18em;
+    height: 37px;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 31px;
+    transition: all 250ms ease-in-out;
+  }
+  .base-container .form input:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px 0.3px rgba(14, 129, 206, 0.5882352941);
+  }
+  .base-container .form input:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px 0.8px rgba(52, 116, 219, 0.6980392157);
+  }
+  .base-container .footer {
+    margin-top: 3em;
+  }
